@@ -11,7 +11,7 @@ spec:
   project: cf-git-sources
   sources:
     - repoURL: https://github.com/bakunowski/argocd-example-apps.git
-      path: kustomize-guestbook
+      path: guestbook
       targetRevision: master
       directory:
         include: '*'
